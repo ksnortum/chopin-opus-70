@@ -44,7 +44,6 @@ rightHand = \relative {
   gf4.) \ottava 0 \appoggiatura { gf16 af } gf8( f ef |
   
   \barNumberCheck 9
-  % like 1
   \trillUnderSlur df[\trill c] df f af cf! |
   \ottava 1 \tuplet 3/2 { ef8 f ef } df) gf,( bf'4) |
   \tuplet 3/2 { df,8( ef df } cf) f,( af'4) |
@@ -182,7 +181,6 @@ leftHand = \relative {
   gf,4( <df' bf'>-.) r |
   
   \barNumberCheck 9
-  % like 1
   \clef bass df,4-. \clef treble <df' f cf'!> q |
   gf,4-. <df' gf bf> q |
   \clef bass df,4-. \clef treble <df' f cf'> q |

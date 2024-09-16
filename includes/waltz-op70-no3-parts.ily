@@ -70,7 +70,6 @@ rightHandUpper = \relative {
   df4) r r |
   
   \barNumberCheck 9
-  % like 1 (7)
   \dynamicsUnderSlur \moveDynamicsA \after 8 ^\> \after 4. \! f2-\slurShapeC (~
     f8 gf! | 
   \moveDynamicsB \after 8^\> \after 16*5 \! f4. f8 ef4 |
@@ -92,7 +91,6 @@ rightHandUpper = \relative {
   df4.) \oneVoice c8-\slurShapeG ( df d |
   
   \barNumberCheck 25
-  % like 17
   \voiceOne f4.-> ef8 f ef |
   f8-> ef f-> ef f-> ef) |
   ef4.->-\slurShapeE ( df8 ef df |
@@ -144,7 +142,6 @@ rightHandUpper = \relative {
   }
   
   \barNumberCheck 59
-  % like 33
   \key gf \major
   \voiceOne bf'2.-> |
   gf2-> f4 |
@@ -156,7 +153,6 @@ rightHandUpper = \relative {
   <cf! ef>4 <bf df> <af cf>) |
   
   \barNumberCheck 67
-  % like 41
   <gf bf>2.-\slurShapeE (
   gf2-> f4 |
   af2-> g4 |
@@ -167,7 +163,6 @@ rightHandUpper = \relative {
   <gf bf gf'>4-. r \voiceOne bf8-\slurShapeA ( af |
   
   \barNumberCheck 75
-  % like 1
   \key df \major
   \dynamicsUnderSlur \moveDynamicsA \after 8 ^\> \after 4. \! f'2~ f8 
     \moveAccidentalA gf! | 
@@ -180,7 +175,6 @@ rightHandUpper = \relative {
   df4) r r |
   
   \barNumberCheck 83
-  % like 9
   \dynamicsUnderSlur \moveDynamicsA \after 8 ^\> \after 4. \! f2(~ f8 gf! | 
   \moveDynamicsB \after 8^\> \after 16*5 \! f4. f8 ef4 |
   df4. c8 bf ef |
@@ -191,7 +185,6 @@ rightHandUpper = \relative {
   df4) r r | 
   
   \barNumberCheck 91
-  % like 17
   f4.->-\slurShapeE ( ef8 f ef |
   f8-> ef f-> ef f-> ef) |
   ef4.->-\slurShapeE ( df8 ef df |
@@ -202,7 +195,6 @@ rightHandUpper = \relative {
   df4.) \oneVoice c8-\slurShapeG ( df d |
   
   \barNumberCheck 99
-  % like 25
   \voiceOne f4.-> ef8 f ef |
   f8-> ef f-> ef f-> ef) |
   ef4.->-\slurShapeE ( df8 ef df |
@@ -228,7 +220,6 @@ rightHandLower = \relative {
   df8 f,( gf g bf af) |
   
   \barNumberCheck 9
-  % like 1 (7)
   r8 f( gf g af4)~ |
   af8 g af bff af gf~ |
   gf8 f af4 g |
@@ -249,7 +240,6 @@ rightHandLower = \relative {
   f4. s4. |
   
   \barNumberCheck 25
-  % like 17
   df'!4. g,8 df' g, |
   c8 af c af c af |
   cf4. f,8 cf' f, |
@@ -299,7 +289,6 @@ rightHandLower = \relative {
   }
   
   \barNumberCheck 59
-  % like 33
   \key gf \major
   r4 <bf, df> q |
   r4 df df|
@@ -311,7 +300,6 @@ rightHandLower = \relative {
   gf4 f8 ef f4 |
   
   \barNumberCheck 67
-  % like 41
   r4 <bf, df> q |
   r4 df df|
   r4 df df|
@@ -322,7 +310,6 @@ rightHandLower = \relative {
   s2. |
   
   \barNumberCheck 75
-  % like 1
   \key df \major 
   r8 f( gf g af4)~ |
   af8 g af bff af gf~ |
@@ -334,7 +321,6 @@ rightHandLower = \relative {
   df8 f,( gf g bf af) |
   
   \barNumberCheck 83
-  % like 9
   r8 f( gf g af4)~ |
   af8 g af bff af gf~ |
   gf8 f af4 g |
@@ -345,7 +331,6 @@ rightHandLower = \relative {
   df8 f,( gf g af c |
   
   \barNumberCheck 91
-  % like 17
   df4.) g,8 df' g, |
   c8 af c af c af |
   cf4. f,8 cf' f, |
@@ -356,7 +341,6 @@ rightHandLower = \relative {
   f4. s4. |
   
   \barNumberCheck 99
-  % like 25
   df'!4. g,8 df' g, |
   c8 af c af c af |
   cf4. f,8 cf' f, |
@@ -390,7 +374,6 @@ leftHand = \relative {
   <df f>4) r r |
   
   \barNumberCheck 9
-  % like 1
   df,4 <f af df> q |
   af,4 <ef' gf! c> q |
   << { r4 <bf' df> q } \\ { bf,2 ef4 } >> |
@@ -469,7 +452,6 @@ leftHand = \relative {
   }
   
   \barNumberCheck 59
-  % like 33
   \key gf \major
   << 
     { \voiceThree gf,4-\slurShapeI ( s2 } 
@@ -485,7 +467,6 @@ leftHand = \relative {
     { c16\stopTrillSpan df } |
     
   \barNumberCheck 67
-  % like 41
   << 
     { \voiceThree gf,4)-\slurShapeI ( s2 } 
     \new Voice { \voiceTwo gf8\< df' ef f gf af\! } 
@@ -499,7 +480,6 @@ leftHand = \relative {
   gf4-.) r r
   
   \barNumberCheck 75
-  % like 1
   \key df \major 
   df'4 <f af df> q |
   af,4 <ef' gf! c> q |
@@ -511,7 +491,6 @@ leftHand = \relative {
   <df f>4) r r |
   
   \barNumberCheck 83
-  % like 9
   df,4 <f af df> q |
   af,4 <ef' gf! c> q |
   << { r4 <bf' df> q } \\ { bf,2 ef4 } >> |
@@ -522,7 +501,6 @@ leftHand = \relative {
   <df f>4) r r |
   
   \barNumberCheck 91
-  % like 17
   ef,,4-. <ef' bf' ef> q |
   af,-. <af' c ef>-. r |
   df,,4-. <df' af' df> q |
@@ -533,7 +511,6 @@ leftHand = \relative {
   <df af'>4-.) df,-. r |
   
   \barNumberCheck 99
-  % like 25
   <ef ef'>4-. <ef' bf' ef> q |
   <af, af'>4-. <af' c ef>-. r |
   <df,, df'>4-. <df' af' df> q |
@@ -604,7 +581,6 @@ dynamics = {
   }
   
   \barNumberCheck 59
-  % like 33
   % gf major
   s2.\p |
   s4 s2\cresc |
@@ -615,7 +591,6 @@ dynamics = {
   s2\> s4\! |
   
   \barNumberCheck 67
-  % like 41
   s2. * 2 |
   s4 s2\cresc |
   s2. * 3 |
@@ -623,18 +598,15 @@ dynamics = {
   s2 s4^\dolceELegato |
   
   \barNumberCheck 75
-  % like 1
   s2. * 8 |
   
   \barNumberCheck 83
-  % like 9
   s2. * 5 |
   s4 s8\> s\! s4 |
   s2. |
   s2\< s8 s\! |
   
   \barNumberCheck 91
-  % like 17
   s2.\mf |
   s2. * 3 |
   s2\< s8 s\! |
@@ -643,7 +615,6 @@ dynamics = {
   s4. s4\< s8\! |
   
   \barNumberCheck 99
-  %like 25
   s2.\mf |
   s2. * 3 |
   s2\< s8 s\! |
@@ -664,7 +635,6 @@ pedal = {
   s2. |
   
   \barNumberCheck 9
-  % like 1
   s4.-\tweak Y-offset -1 \sd s8\su s\sd s\su |
   s4.\sd s8\su s\sd s\su |
   s4.-\tweak Y-offset -1 \sd s8\su s\sd s\su |
@@ -723,17 +693,14 @@ pedal = {
   }
   
   \barNumberCheck 59
-  % like 33
   % gf major
   s2. * 7 |
   s4\sd s2\su |
   
   \barNumberCheck 67
-  % like 41
   s2. * 8 |
   
   \barNumberCheck 75
-  % like 1
   s4.-\tweak Y-offset -1 \sd s8\su s\sd s\su |
   s4.\sd s8\su s\sd s\su |
   s4.-\tweak Y-offset -1 \sd s8\su s\sd s\su |
@@ -744,7 +711,6 @@ pedal = {
   s2. |
   
   \barNumberCheck 83
-  % like 9
   s4.-\tweak Y-offset -1 \sd s8\su s\sd s\su |
   s4.\sd s8\su s\sd s\su |
   s4.-\tweak Y-offset -1 \sd s8\su s\sd s\su |
@@ -755,7 +721,6 @@ pedal = {
   s2. |
   
   \barNumberCheck 91
-  % like 17
   s4.-\tweak Y-offset -1 \sd s\su |
   s4.\sd s\su |
   s4.-\tweak Y-offset -1 \sd s\su |
@@ -766,7 +731,6 @@ pedal = {
   s4.\sd s-\tweak Y-offset -1 \su |
   
   \barNumberCheck 99
-  % like 25
   s4.-\tweak Y-offset -1 \sd s\su |
   s4.-\tweak Y-offset -1 \sd s\su |
   s4.-\tweak Y-offset -1 \sd s\su |
