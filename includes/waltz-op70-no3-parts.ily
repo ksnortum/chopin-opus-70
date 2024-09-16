@@ -16,9 +16,9 @@ slurShapeC = \shape #'(
                         ((0 . 0) (0 . 0) (0 . 0) (0 . 0))
                         ((0 . 0) (0 . 1) (0 . 0) (0 . 0))
                         ) \etc
-slurShapeD = \shape #'((0 . -1) (0 . 0) (0 . 1) (0 . -1)) \etc
+slurShapeD = \shape #'((0 . -1.5) (0 . 0) (0 . 1.5) (0 . -1)) \etc
 slurShapeE = \shape #'((0 . 0) (0 . 0) (0 . 1) (0 . 0)) \etc
-slurShapeF = \shape #'((0 . 0) (0 . 1) (0 . 0) (0 . 0)) \etc
+slurShapeF = \shape #'((0 . 0) (0 . 1.25) (0 . 0) (0 . 0.25)) \etc
 slurShapeG = \shape #'(
                         ((0 . 0) (0 . 3) (0 . 0) (0 . 0))
                         ((0 . 0) (0 . 0) (0 . 1) (0 . 0))
